@@ -24,7 +24,9 @@ class Configuracion {
 
 // Uso
 const config1 = Configuracion.obtenerInstancia();
+
 const config2 = Configuracion.obtenerInstancia();
 
 config1.establecerConfiguracion("modo", "produccion")
+
 config2.obtenerConfiguracion("modo")
